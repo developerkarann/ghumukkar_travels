@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Festive&display=swap');
+
+.bg-prime-dark {
+    background-color: #211C84;
+}
+
+.bg-prime {
+    background-color: #4D55CC;
+}
+
+.bg-prime-light {
+    background-color: #7A73D1;
+}
+
+.bg-prime-eligth {
+    background-color: #B5A8D5;
+}
+
+.text-dark {
+    color: #211C84;
+}
+
+.text-prime {
+    color: #4D55CC;
+}
+
+.textprime-light {
+    color: #7A73D1;
+}
+
+.text-prime-eligth {
+    color: #B5A8D5;
+}
+
+.festive-regular {
+    font-family: "Festive", cursive;
+    font-weight: 500;
+}
+
+@keyframes shimmer {
+    0% {
+        background-position: -1000px 0;
+    }
+
+    100% {
+        background-position: 1000px 0;
+    }
+}
+
+.animate-shimmer {
+    animation: shimmer 2s infinite linear;
+    background: linear-gradient(to right, #f6f7f8 4%, #edeef1 25%, #f6f7f8 36%);
+    background-size: 1000px 100%;
+}
