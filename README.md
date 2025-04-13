@@ -15,37 +15,68 @@ CSS – Tailwind CSS
 - 📁 Project Structure
 
 ghumukkar-travels/
-│
-├── components/
-│   ├── Navbar.js
-│   └── Footer.js
-│
-├── pages/
-│   ├── about/
-│   │   └── About.js
-│   ├── blog/
-│   │   └── Blog.js
-│   ├── hotels/
-│   │   └── Hotels.js
-│   ├── hotelDetails/
-│   │   └── HotelDetails.js
-│   └── wishlist/
-│       └── Wishlist.js
-│
-├── App.js
-├── App.css
-└── index.js
+
+
+    components/
+
+
+       Navbar.js
+
+
+       Footer.js
+  
+     pages/
+
+
+        about/
+
+
+            About.js
+
+
+        blog/
+
+
+            Blog.js
+
+
+        hotels/
+
+
+            Hotels.js
+
+
+        hotelDetails/
+
+
+            HotelDetails.js
+
+
+        wishlist/
+
+
+            Wishlist.js
 
 
 -🌐 Available Routes
 
-Route	Component	Description
+Route
 
-/	- Blog	- Displays latest travel blogs
-/hotels	- Hotels	- Lists all available hotels
-/hotel/:id -	HotelDetails -	Shows detailed info of selected hotel
-/favorites	- Wishlist	- Displays user’s saved favorite hotels
-/about	- About	- Shows information about the platform
+/	( Blog )	- Displays latest travel 
+
+
+/hotels	- (Hotels)	- Lists all available hotels
+
+
+/hotel/:id -	(HotelDetails) -	Shows detailed info of selected hotel
+
+
+/favorites	- (Wishlist)	- Displays user’s saved favorite hotels
+
+
+/about	- (About)	- Shows information about the platform
+
+
 
 - ⚙ Features
 
