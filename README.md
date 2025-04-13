@@ -1,12 +1,69 @@
-# React + Vite
+# 🌍 Ghumukkar Travels
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Ghumukkar Travels is a travel-focused React web application that provides users with information about travel blogs, hotels, and wishlist features. The goal of the project is to offer a clean and interactive travel exploration experience for users.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 🔧 Tech Stack
+React.js – Frontend framework
 
-## Expanding the ESLint configuration
+React Router DOM – Client-side routing
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+React Toastify – Toast notification handling
+
+CSS – Tailwind CSS
+
+- 📁 Project Structure
+
+ghumukkar-travels/
+│
+├── components/
+│   ├── Navbar.js
+│   └── Footer.js
+│
+├── pages/
+│   ├── about/
+│   │   └── About.js
+│   ├── blog/
+│   │   └── Blog.js
+│   ├── hotels/
+│   │   └── Hotels.js
+│   ├── hotelDetails/
+│   │   └── HotelDetails.js
+│   └── wishlist/
+│       └── Wishlist.js
+│
+├── App.js
+├── App.css
+└── index.js
+
+
+-🌐 Available Routes
+
+Route	Component	Description
+
+/	- Blog	- Displays latest travel blogs
+/hotels	- Hotels	- Lists all available hotels
+/hotel/:id -	HotelDetails -	Shows detailed info of selected hotel
+/favorites	- Wishlist	- Displays user’s saved favorite hotels
+/about	- About	- Shows information about the platform
+
+- ⚙ Features
+
+🧭 Navigation Bar for seamless routing
+
+📝 Blog Section to explore travel content
+
+🏨 Hotels Listing with dynamic hotel details
+
+❤️ Wishlist to save your favorite hotels
+
+📣 Toast Notifications for user feedback
+
+📦 Responsive Desin for better UX
+
+
+## Take a live preview
+
+https://ghumukkartravels.vercel.app
+
+
