@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import HotelCard from '../../components/HotelCard'
 import Loader from '../../components/Loader';
-import WishListCard from '../../components/wishListCard';
+import WishListCard from '../../components/WishListCard';
 import DataNotFound from '../../components/DataNotFound';
 
 const Wishlist = () => {
