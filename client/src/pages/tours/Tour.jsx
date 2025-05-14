@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react'
 import TourCard from '../../components/TourCard'
-import AddNodal from '../../components/addModal'
 import { toast } from 'react-toastify';
 import SERVER from '../../assets/backendUrl';
 
