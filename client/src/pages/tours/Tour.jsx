@@ -20,7 +20,7 @@ const Tour = () => {
     });
 
     const getTourData = async () => {
-        const response = await fetch('http://localhost:3000/tour', {
+        const response = await fetch(`${SERVER}/tour`, {
             method: 'GET',
             headers: {
                 "Content-Type": "application/json"
