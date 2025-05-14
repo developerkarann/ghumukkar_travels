@@ -25,7 +25,7 @@ const TourCard = ({ data }) => {
 
     const handleDelete = async (id) => {
         setOpen(false);
-        const res = await fetch(`${SERVER}/${id}`, {
+        const res = await fetch(`${SERVER}/tour/${id}`, {
             method: 'DELETE',
             headers: {
                 "Content-Type": "application/json"
@@ -43,7 +43,7 @@ const TourCard = ({ data }) => {
 
     const handleUpdate = async (id) => {
         const { tourId, title, description, pick_up, meeting_point, drop_off, duration, duration_unit } = form;
-        const res = await fetch(`${SERVER}/${id}`, {
+        const res = await fetch(`${SERVER}/tour/${id}`, {
             method: 'PUT',
             headers: {
                 "Content-Type": "application/json"

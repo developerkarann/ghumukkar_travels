@@ -38,7 +38,7 @@ const Tour = () => {
         e.preventDefault()
         const { tourId, title, description, pick_up, meeting_point, drop_off, duration, duration_unit } = form;
 
-        const res = await fetch(SERVER, {
+        const res = await fetch(`${SERVER}/tour`, {
             method: 'POST',
             headers: {
                 "Content-Type": "application/json"
