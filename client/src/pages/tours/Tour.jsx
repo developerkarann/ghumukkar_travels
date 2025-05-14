@@ -30,7 +30,6 @@ const Tour = () => {
         const data = await response.json()
         setTourData(data.tours)
     }
-    // tourData && console.log(tourData)
 
     const handleChange = (e) => {
         setForm({ ...form, [e.target.name]: e.target.value });
